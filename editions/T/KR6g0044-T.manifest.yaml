@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6g0044/T/v1
+canonical_location: https://kanripo.org/bkk/KR6g0044/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 遺教經論
+  identifiers:
+    krp: KR6g0044
+    cbeta: T26n1529
+    cbeta_old_id: T26n1529
+    authorityid: CA0003748
+    json_key: T1529
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T26/T26n1529.xml
+    old_id: T26n1529
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6g0044_000-T.yaml, hash: 'sha256:b506ad94b92d40e679559aabefd122c28025515f477638b367cad41d73dbcf19'}
+  - {seq: 1, filename: KR6g0044_001-T.yaml, hash: 'sha256:0f40f71f868ec4d2e6fa5a72138f2686c6535c7f359901291588a66cbeb87534'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6g0044_000-T.markers.yaml, hash: 'sha256:6905e4df5eac8f8674a08f3a0ab859d22f0b42b5d383642238e7ce5bbbc625a0'}
+  - {seq: 1, role: markers, filename: assets/KR6g0044_001-T.markers.yaml, hash: 'sha256:3ae5105a72e98b7fbe569df8bcea91f6ee853dc03be26d6be471dacfe5ac30b2'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6g0044_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 11585
+  label: 遺教經論一卷
+  type: juan
+  level: 1
+hash: sha256:a0ebafd45b42014b21af473650aaa76415755e88e13f1f596944cbcc799a3e97
