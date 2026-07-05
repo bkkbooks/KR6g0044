@@ -37,9 +37,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6g0044_000.yaml, hash: 'sha256:b506ad94b92d40e679559aabefd122c28025515f477638b367cad41d73dbcf19'}
-  - {seq: 1, filename: KR6g0044_001.yaml, hash: 'sha256:42cdca0bab147c4cf42f3cea28ac47a545373d6934ed38b289ea9be5ae629dca'}
+  - {seq: 1, filename: KR6g0044_001.yaml, hash: 'sha256:0f40f71f868ec4d2e6fa5a72138f2686c6535c7f359901291588a66cbeb87534'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6g0044_001.markers.yaml, hash: 'sha256:c27668ed11341e4c6f834b4d6df87a031331ea7524168ed21db3c2fc54efae00'}
+  - {seq: 0, role: markers, filename: assets/KR6g0044_000.markers.yaml, hash: 'sha256:f14b8dd0dbda51cad5eb60151ca2f2cc3702cc3a008d7c4528164827196f93fe'}
+  - {seq: 1, role: markers, filename: assets/KR6g0044_001.markers.yaml, hash: 'sha256:22a1348e1450811945933441e786cd9176f91aafce3103441fc7da5b4c9c7466'}
 table_of_contents:
 - ref:
     seq: 1
@@ -51,7 +52,4 @@ table_of_contents:
   label: 遺教經論一卷
   type: juan
   level: 1
-hash: sha256:61d296f02241dbe422af561dbf34518f1bb18021874d846202f51b16916ad631
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:595130ab3b01f6a2a3c8e14de3f94c1d0e2dfe02fb3a41c6f94d9ff99c91d0dd
